@@ -1,0 +1,95 @@
+body {
+  background-color: #99bcc4;
+}
+/******* styling *******/
+h1 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.787);
+  font-size: 100px;
+  margin-bottom: 25px;
+}
+h2 {
+  text-align: center;
+  color: rgb(255, 37, 37);
+  font-size: 50px;
+}
+p {
+  padding: 20px 10px 0px 20px;
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+  word-wrap: break-word;
+}
+.BOX {
+  background-color: #0a7280;
+  font-size: 20px;
+  height: 200px;
+  width: auto;
+  padding: 0px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 3px;
+  border: 3px solid rgba(0, 0, 0, 0.787);
+  position: relative;
+}
+span {
+  font-size: 20px;
+  width: 150px;
+  border: 3px solid rgba(0, 0, 0, 0.787);
+  background-color: #3599a7;
+  font-weight: bold;
+  text-align: center;
+  float: right;
+  top: 0;
+  right: 0;
+  margin: 0;
+  position: absolute;
+}
+/****** Styling  Box-Tittle *******/
+.sp1 {
+  color: rgb(23, 55, 144);
+}
+.sp2 {
+  color: rgb(129, 30, 195);
+  background-color: rgb(255, 0, 255);
+}
+.sp3 {
+  color: black;
+  background-color: blanchedalmond;
+}
+* {
+  box-sizing: border-box;
+}
+
+row {
+  width: 100%;
+}
+
+/*********************** Media ***********************/
+
+/******* PC *******/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+  }
+}
+/******* Mobile device *******/
+
+@media (max-width: 767px) {
+  .col-sx-12 {
+    float: left;
+    width: 100%;
+  }
+}
+/******* Tablet device *******/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
